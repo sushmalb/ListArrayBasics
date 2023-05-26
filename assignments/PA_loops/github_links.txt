@@ -1,0 +1,3 @@
+https://github.com/sushmalb/multiplication-table/blob/master/assignments/MultiplicationTables.java
+
+https://github.com/sushmalb/student_GPA/blob/master/assignments/PA_loops/Student_GPA.java
