@@ -1,5 +1,5 @@
 List is a special type in Java called an interface.
-Arraylist is  resizable . It is a class.
+Arraylist is  resizable . It is a class. Only supports primitive type wrappers
 <> - Domino Operator
 ArrayList<String> str = new ArrayList<>()
 
@@ -27,3 +27,62 @@ arr.sort(Comparator.naturalOrder()) - is used to sort an array of objects in asc
 arr.sort(Comparator.reverseOrder()) - reverse alphabatical order
 
 var arr1 = arr.toArray(new String[arr.size()]) -  used to convert a List or Collection (arr) containing String elements into an array of Strings.
+
+==================================================================================================
+
+                           Arrays                                      ArrayList
+
+Last elem               array.length-1                                  array.size()-1
+Getting an elem         arrays[0]                                   arrayList.get(0)
+assigning a value       arrays[0]= 1                                arrayList.set(0,1)
+size                     fixed                                       not fixed
+creatiion             Strig[] arrays =        ArrayList<String> arrayList = new ArrayList<>(List.
+                 {"first","second"}           of("first","second"))
+printing         sout(Arrays.toString(arrays))               sout(arraylist)       
+
+printing multiD   sout(Arrays.deepToString(arrays))            sout(multiD)
+Finding an elem    int binarySearch(array,elem)      contains,contailsAll,indexOf,lastIndexOf
+
+sort             Arrays.sort(arr)                 arrayList.sort(Comparator.naturalOrder())
+                                                  arrayList.sort(Comparator.reverseOrder())
+
+==================================================================================================
+
+Array as an arraylist
+---------------------
+String[] originalArray = new String[] {"First","Second","Third"}
+var originalArray = Arrays.asList(originalArray)
+
+Any change made to the listn, is a change to the array.
+This means that arrayList created by this method is not resizable.
+
+Creating Arrays from arraylist
+-------------------------------
+
+ArrayList<String> arList = new ArrayList<>(List.of("Jan","Feb,"March"))
+String[] stringArr = arList.toArray(new string[0])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
