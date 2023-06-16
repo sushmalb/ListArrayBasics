@@ -1,0 +1,29 @@
+List is a special type in Java called an interface.
+Arraylist is  resizable . It is a class.
+<> - Domino Operator
+ArrayList<String> str = new ArrayList<>()
+
+add() - To add an elem
+add(index_number,item) - To add elements at a specific index
+addAll(List of elems)
+List.of() -immutable and Arrays.asList()- mutable, are both methods in Java that can be used to create a list from a set of elements. However, there are some important differences.
+
+
+
+get(index) - to get an element on that idex
+set() - To change an item
+remove(index) - to remove an element
+contains(item) - Boolean which gives us if there is an item or not
+indexOf() - gives the index of an element , -1 if not found
+lastIndexOf() - Last index of an element (for repetating items)
+
+removeAll(list of elems) - removes multiple elements
+retainAll(list of items) - retains these elems n deletes all. if an item passed to retain is not in the list, it is just ignored and not added to the list.
+clear() - empties the list
+isempty()- returns true if the list is empty
+
+Arrays.sort()- is a static method in Java's Arrays class that is used to sort an array in ascending order
+arr.sort(Comparator.naturalOrder()) - is used to sort an array of objects in ascending order using the natural ordering defined by the objects' implementation of the Comparable interface.
+arr.sort(Comparator.reverseOrder()) - reverse alphabatical order
+
+var arr1 = arr.toArray(new String[arr.size()]) -  used to convert a List or Collection (arr) containing String elements into an array of Strings.

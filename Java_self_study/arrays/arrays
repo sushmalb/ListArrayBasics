@@ -1,0 +1,3 @@
+-> Arrays are mutable in java , we could change values in the array, but we could not resize them.
+-> Arrays point to the same memory when copied. so change to one will change the other as well.
+
